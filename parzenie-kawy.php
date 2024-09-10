@@ -51,3 +51,8 @@ $mojaKawa->dodajSkładnik("kawa mielona");
 $mojaKawa->dodajSkładnik("woda");
 $mojaKawa->parzKawę();
 $mojaKawa->serwujKawę();
+
+
+
+///1111
+//112/
