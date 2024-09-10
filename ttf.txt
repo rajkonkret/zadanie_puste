@@ -25,14 +25,15 @@ dodane Arm
 9 dodane mojefer
 888 
 9 dodane mojetesty4
+ 
 9 dodane mojetesty4
 9 dodane mojetesty4
 9 dodane mojetesty4
-linia 28
-9 dodane mojetesty4
-9 dodane mojetesty4
-9 dodane mojetesty4
-9 dodane mojetesty4
+linia 27
+nowa linia 28
+linia 29 9 dodane mojetesty4
+
+
 9 dodane mojetesty4
 
 aaa
