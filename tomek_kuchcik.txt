@@ -3,7 +3,11 @@ aaa
 bbb
 aaa
 bbb
+<<<<<<< Updated upstream
 bbb
+=======
+W
+>>>>>>> Stashed changes
 aaa
 bbb
 W
