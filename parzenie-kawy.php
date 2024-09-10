@@ -53,6 +53,4 @@ $mojaKawa->parzKawę();
 $mojaKawa->serwujKawę();
 
 
-///1
-///2
-///3
+ 
