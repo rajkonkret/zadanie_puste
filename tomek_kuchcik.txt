@@ -3,7 +3,7 @@ aaa
 bbb
 aaa
 bbb
-W
+bbb
 aaa
 bbb
 Wielka zmiana w tym miejscu
