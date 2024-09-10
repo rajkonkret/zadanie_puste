@@ -1,5 +1,7 @@
 # zadanie_puste
+
 test clonne
+<<<<<<< HEAD
 
 
 
@@ -116,3 +118,23 @@ git stas pop // wyciągnięcie schowanych zmian i usunięcie ich ze schowka
 git stash apply // wyciągnięcie schowanych zmian
 git stash drop // usunięcie schowanych zmian
 git stash clear // usunięcie wszystkich schowanych zmian
+=======
+1
+2
+2
+
+3
+4
+4
+terefere 
+terefere 
+ty też terefere
+
+3 Dodane 10.09.2024
+Radek 
+terefere
+terefere
+hahaha
+test Radek
+
+>>>>>>> 8993205f135ef8e6c5748b0e639ffbdbaa605a26
