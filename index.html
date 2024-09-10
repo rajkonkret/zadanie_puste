@@ -36,6 +36,10 @@
             pointer-events: none;
             z-index: 0;
         }
+        #wyniki {
+            margin-top: 20px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -43,9 +47,14 @@
         <h1>Gra w zgadywanie liczby</h1>
         <p>Zgadnij liczbę od 1 do 100:</p>
         <input type="number" id="guess" min="1" max="100">
-        <button onclick="sprawdzStrzal()">Sprawdź</button> 
+        <button onclick="sprawdzStrzal()">Sprawdź</button>
         <p id="wynik"></p>
         <p id="proby"></p>
+        <button id="nowaGra" style="display: none;" onclick="nowaGra()">Nowa gra</button>
+        <div id="wyniki">
+            <h2>Lista wyników:</h2>
+            <ol id="listaWynikow"></ol>
+        </div>
     </div>
     <canvas id="confetti"></canvas>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>

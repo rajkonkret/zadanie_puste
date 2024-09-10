@@ -1,5 +1,16 @@
-const liczbaDoZgadniecia = Math.floor(Math.random() * 100) + 1;
-let proby = 0;
+let liczbaDoZgadniecia;
+let proby;
+let wyniki = [];
+
+function inicjalizujGre() {
+    liczbaDoZgadniecia = Math.floor(Math.random() * 100) + 1;
+    proby = 0;
+    document.getElementById('guess').value = '';
+    document.getElementById('wynik').textContent = '';
+    document.getElementById('proby').textContent = '';
+    document.querySelector('button').disabled = false;
+    document.getElementById('nowaGra').style.display = 'none';
+}
 
 function sprawdzStrzal() {
     const strzal = parseInt(document.getElementById('guess').value);
@@ -12,7 +23,9 @@ function sprawdzStrzal() {
         wynikElement.textContent = `Gratulacje! Zgadłeś liczbę ${liczbaDoZgadniecia}!`;
         probyElement.textContent = `Liczba prób: ${proby}`;
         document.querySelector('button').disabled = true;
+        document.getElementById('nowaGra').style.display = 'inline-block';
         swietujWygrana();
+        dodajWynik(proby);
     } else if (strzal < liczbaDoZgadniecia) {
         wynikElement.textContent = "Za mało! Spróbuj ponownie.";
     } else {
@@ -49,3 +62,26 @@ function swietujWygrana() {
         }));
     }, 250);
 }
+
+function nowaGra() {
+    inicjalizujGre();
+}
+
+function dodajWynik(proby) {
+    wyniki.push(proby);
+    wyniki.sort((a, b) => a - b);
+    aktualizujListeWynikow();
+}
+
+function aktualizujListeWynikow() {
+    const lista = document.getElementById('listaWynikow');
+    lista.innerHTML = '';
+    wyniki.forEach((wynik, index) => {
+        const li = document.createElement('li');
+        li.textContent = `Gra ${index + 1}: ${wynik} prób`;
+        lista.appendChild(li);
+    });
+}
+
+// Inicjalizacja gry przy załadowaniu strony
+inicjalizujGre();
