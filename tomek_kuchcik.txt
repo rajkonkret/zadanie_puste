@@ -4,7 +4,11 @@ bbb
 aaa
 bbb
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 bbb
+=======
+W
+>>>>>>> Stashed changes
 =======
 W
 >>>>>>> Stashed changes
