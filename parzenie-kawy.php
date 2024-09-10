@@ -1,5 +1,16 @@
 <?php
 
+//================================================================
+// Definicja interfejsu dla składników kawy
+//
+// Uwaga:
+// - interfejsy są w PHP 8.3
+// - interfejsy nie mogą zawierać metod
+// - interfejsy nie mogą zaw
+//----------------------------------------------------------------
+
+
+
 class Kawa
 {
     private $składniki = [];
@@ -40,7 +51,3 @@ $mojaKawa->dodajSkładnik("kawa mielona");
 $mojaKawa->dodajSkładnik("woda");
 $mojaKawa->parzKawę();
 $mojaKawa->serwujKawę();
-
-
-
-//================================================
