@@ -6,7 +6,8 @@ bbb
 W
 aaa
 bbb
-W
+Wielka zmiana w tym miejscu
+
 aaa
 zenek
 W
