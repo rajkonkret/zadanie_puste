@@ -6,7 +6,8 @@ bbb
 W
 aaa
 bbb
-W
+Wielka zmiana w tym miejscu
+
 aaa
 zenek
 W
@@ -22,3 +23,5 @@ ccc
 ddd
 eee
 fff
+88888
+Próba popsucia
