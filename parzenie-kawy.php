@@ -1,5 +1,7 @@
 <?php
 
+ 
+
 //================================================================
 // Definicja interfejsu dla składników kawy
 //
@@ -8,9 +10,7 @@
 // - interfejsy nie mogą zawierać metod
 // - interfejsy nie mogą zaw
 //----------------------------------------------------------------
-
-
-
+ 
 class Kawa
 {
     private $składniki = [];
@@ -53,4 +53,5 @@ $mojaKawa->parzKawę();
 $mojaKawa->serwujKawę();
 
 
- 
+
+//================================================
